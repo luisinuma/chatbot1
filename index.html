@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Matemático</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h1>Chatbot de Matemática</h1>
+        <div id="chatbox">
+            <div class="bot-message">¡Hola! Soy tu asistente de matemáticas. Selecciona un nivel para empezar:</div>
+        </div>
+        <div id="level-selection">
+            <button class="level-btn" data-level="1">Nivel 1</button>
+            <button class="level-btn" data-level="2">Nivel 2</button>
+            <button class="level-btn" data-level="3">Nivel 3</button>
+        </div>
+        <input type="text" id="user-input" placeholder="Escribe tu respuesta aquí..." autofocus style="display: none;">
+        <button id="send-btn" style="display: none;">Enviar</button>
+        <button id="restart-btn" style="display: none;">Comenzar de Nuevo</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
